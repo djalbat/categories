@@ -1,0 +1,11 @@
+
+
+                               term  ::=  argument ( ( ":" argument "⟶" argument )     (1)
+
+                                                   | ( ";" argument )                  (2)
+
+                                                   | ( <NO_WHITESPACE>"⁻¹" )           (3) ) ;
+
+
+                               term  ::=  ( "domain" | "codomain" )<NO_WHITESPACE>"(" argument ")" ;
+

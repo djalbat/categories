@@ -1,0 +1,16 @@
+Variable A:Object
+Variable B:Object
+
+Variable f
+
+Axiom (Domains)
+  Suppose 
+    f:A ⟶ B:Morphism
+  Then
+    domain(f) = A
+
+Axiom (Codomains)
+  Suppose 
+    f:A ⟶ B:Morphism
+  Then
+    codomain(f) = B

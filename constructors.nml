@@ -1,0 +1,8 @@
+Constructor Morphism⁻¹:Morphism
+
+Constructor Morphism;Morphism:Morphism
+
+Constructor Morphism:Object ⟶ Object:Morphism
+
+Constructor domain(Morphism):Object
+Constructor codomain(Morphism):Object

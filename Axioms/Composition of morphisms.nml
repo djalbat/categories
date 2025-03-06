@@ -1,0 +1,23 @@
+Variable A:Object
+Variable B:Object
+Variable C:Object
+Variable D:Object
+
+Variable f
+Variable g
+Variable h
+
+Axiom (CompositionOfMorphisms)
+  Suppose 
+    f:A ⟶ B:Morphism
+    g:B ⟶ C:Morphism
+  Then
+    (f;g):A ⟶ C:Morphism
+
+Axiom (AssociativityOfComposition)
+  Suppose 
+    f:A ⟶ B:Morphism
+    g:B ⟶ C:Morphism
+    h:C ⟶ D:Morphism
+  Then
+    (f;g);h = f;(g;h)
