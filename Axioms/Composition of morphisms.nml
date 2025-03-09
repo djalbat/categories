@@ -1,7 +1,7 @@
-Variable A:Object
-Variable B:Object
-Variable C:Object
-Variable D:Object
+Variable A:Object provisionally
+Variable B:Object provisionally
+Variable C:Object provisionally
+Variable D:Object provisionally
 
 Variable f
 Variable g
@@ -20,4 +20,4 @@ Axiom (AssociativityOfComposition)
     g:B ⟶ C:Morphism
     h:C ⟶ D:Morphism
   Then
-    (f;g);h = f;(g;h)
+    (f;g);h = f;(g;h) = f;g;h

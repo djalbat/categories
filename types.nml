@@ -1,5 +1,10 @@
 Type Morphism
 
+Provisional Type
+  Object
+  Property
+    identity morphism:Morphism
+
 Provisional Type 
   Category
   Properties

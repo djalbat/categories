@@ -1,11 +1,14 @@
 
 
-                               term  ::=  argument ( ( ":" argument "⟶" argument )     (1)
+                term  ::=  "id_"<NO_WHITESPACE>argument
 
-                                                   | ( ";" argument )                  (2)
+                        |  ( "domain" | "codomain" )<NO_WHITESPACE>"(" argument ")"
 
-                                                   | ( <NO_WHITESPACE>"⁻¹" )           (3) ) ;
+                        |  argument ( ( ":" argument "⟶" argument )     (1)
 
+                                    | ( ";" argument )                  (2)
 
-                               term  ::=  ( "domain" | "codomain" )<NO_WHITESPACE>"(" argument ")" ;
+                                    | ( <NO_WHITESPACE>"⁻¹" )           (3) ) 
+
+                        ;
 

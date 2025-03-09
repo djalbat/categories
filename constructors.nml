@@ -4,5 +4,7 @@ Constructor Morphism;Morphism:Morphism
 
 Constructor Morphism:Object ⟶ Object:Morphism
 
-Constructor domain(Morphism):Object
-Constructor codomain(Morphism):Object
+Constructor id_Object:Morphism
+
+Constructor domain(Morphism):Object provisionally
+Constructor codomain(Morphism):Object provisionally

@@ -1,0 +1,15 @@
+Variable A:Object provisionally
+Variable B:Object provisionally
+
+Variable f:Morphism
+Variable g:Morphism
+Variable id:Morphism
+
+Satisfying Axiom (IdentityMorphisms)
+  Suppose
+    domain(f) = A
+    codomain(g) = B
+    id_A;f = f
+    g;id_A = g
+  Then
+    id_A is an identity morphism of A

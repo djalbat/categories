@@ -1,5 +1,7 @@
 {
   "version": "1.0.0",
   "repository": "https://github.com/djalbat/caegories",
-  "dependencies": {}
+  "dependencies": {
+    "equality": "1.0"
+  }
 }
