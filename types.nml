@@ -1,11 +1,11 @@
 Type Morphism
 
-Provisional Type
+Type
   Object
   Property
     identity morphism:Morphism
 
-Provisional Type 
+Type 
   Category
   Properties
     object:Object

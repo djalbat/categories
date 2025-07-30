@@ -1,8 +1,6 @@
-Constructor Morphism⁻¹:Morphism
-
 Constructor Morphism;Morphism:Morphism
 
-Constructor Morphism:Object ⟶ Object:Morphism
+Constructor Morphism⁻¹:Morphism
 
 Constructor id_Object:Morphism
 

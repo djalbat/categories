@@ -3,21 +3,21 @@ Variable B:Object provisionally
 Variable C:Object provisionally
 Variable D:Object provisionally
 
-Variable f
-Variable g
-Variable h
+Variable f:Morphism
+Variable g:Morphism
+Variable h:Morphism
 
 Axiom (CompositionOfMorphisms)
   Suppose 
-    f:A ⟶ B:Morphism
-    g:B ⟶ C:Morphism
+    f:A ⟶ B
+    g:B ⟶ C
   Then
-    (f;g):A ⟶ C:Morphism
+    f;g:A ⟶ C
 
 Axiom (AssociativityOfComposition)
   Suppose 
-    f:A ⟶ B:Morphism
-    g:B ⟶ C:Morphism
-    h:C ⟶ D:Morphism
+    f:A ⟶ B
+    g:B ⟶ C
+    h:C ⟶ D
   Then
     (f;g);h = f;(g;h) = f;g;h

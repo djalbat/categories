@@ -1,7 +1,0 @@
-Variable A:Object provisionally
-
-Satisfying Axiom (Objects)
-  Suppose
-    id_A is an identity morphism of A
-  Then
-    A:Object

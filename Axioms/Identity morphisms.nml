@@ -1,0 +1,28 @@
+Variable A:Object provisionally
+Variable B:Object provisionally
+Variable C:Object provisionally
+
+Variable f:Morphism
+Variable g:Morphism
+
+Satisfiable Axiom (CateogoryIdentityEndomorphisms)
+    f:B ⟶ B 
+
+Satisfiable Axiom (CateogoryRightIdentityMorphisms)
+  Suppose 
+    g:A ⟶ B
+  Then 
+    g;f = g
+
+Satisfiable Axiom (CateogoryLeftIdentityMorphisms)
+  Suppose 
+    g:B ⟶ C
+  Then 
+    f;g = g
+
+Axiom (IdentityMorphisms)
+  f is an identity morphism of B iff (f, B satisfy CateogoryIdentityEndomorphisms ∧ f, B satisfy CateogoryLeftIdentityMorphisms ∧ f, B satisfy CateogoryRightIdentityMorphisms)
+
+
+Axiom (IdentityMorphismsAlternativeForm)
+  f is an identity morphism of A iff f = id_A
