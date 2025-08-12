@@ -1,7 +1,7 @@
-Variable A:Object provisionally
-Variable B:Object provisionally
-Variable C:Object provisionally
-Variable D:Object provisionally
+Variable A:Object
+Variable B:Object
+Variable C:Object
+Variable D:Object
 
 Variable f:Morphism
 Variable g:Morphism

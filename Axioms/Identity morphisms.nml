@@ -1,28 +1,33 @@
-Variable A:Object provisionally
-Variable B:Object provisionally
-Variable C:Object provisionally
+Variable C:Category provisionally
 
 Variable f:Morphism
 Variable g:Morphism
+Variable h:Morphism
 
-Satisfiable Axiom (CateogoryIdentityEndomorphisms)
-    f:B ⟶ B 
+Variable X:Object
+Variable Y:Object
+Variable Z:Object
 
-Satisfiable Axiom (CateogoryRightIdentityMorphisms)
+Axiom [C, X] (CategoryIdentityMorphisms)
+  Suppose
+    X is an object of C
+  Then
+    id_X is an identity morphism of X
+
+Axiom [Y, Z, g, h] (CategoryLeftIdentityMorphisms)
   Suppose 
-    g:A ⟶ B
+    h:Y ⟶ Z
   Then 
-    g;f = g
+    g;h = h
 
-Satisfiable Axiom (CateogoryLeftIdentityMorphisms)
+Axiom [X, Y, f, g] (CategoryRightIdentityMorphisms)
   Suppose 
-    g:B ⟶ C
+    f:X ⟶ Y
   Then 
-    f;g = g
+    f = f;g
 
 Axiom (IdentityMorphisms)
-  f is an identity morphism of B iff (f, B satisfy CateogoryIdentityEndomorphisms ∧ f, B satisfy CateogoryLeftIdentityMorphisms ∧ f, B satisfy CateogoryRightIdentityMorphisms)
+  g is an identity morphism of Y iff (g:Y ⟶ Y ∧ [Y, Z, g, h] satisfies CategoryLeftIdentityMorphisms ∧ [X, Y, f, g] satisfies CategoryRightIdentityMorphisms)
 
-
-Axiom (IdentityMorphismsAlternativeForm)
-  f is an identity morphism of A iff f = id_A
+Axiom (CanonicalFormForIdentityMorhpisms)
+  f is an identity morphism of X iff f = id_X

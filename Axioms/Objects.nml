@@ -1,9 +1,0 @@
-Variable A:Object provisionally
-
-Variable f:Morphism
-
-Satisfiable Axiom (Objects)
-  Suppose
-    f is an identity morphism of A
-  Then
-    A:Object

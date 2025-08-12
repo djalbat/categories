@@ -1,0 +1,9 @@
+Variable C:Category provisionally
+
+Variable X:Object
+
+Axiom (Categories)
+  Suppose
+    [C, X] satisfies CategoryIdentityMorphisms
+  Then
+    C:Category
