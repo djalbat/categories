@@ -1,4 +1,4 @@
 
 
-            statement  ::=  argument ":" argument "⟶" argument ;
+            statement  ::=  argument ":" argument "⟶" argument ( "in" argument )? ;
 

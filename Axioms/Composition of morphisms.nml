@@ -1,0 +1,15 @@
+Variable C:Category provisionally
+
+Variable X:Object
+Variable Y:Object
+Variable Z:Object
+
+Variable f:Morphism
+Variable g:Morphism
+
+Axiom [C, X, Y, Z, f, g] (CategoryCompositionOfMorphisms)
+  Suppose
+    f:X ⟶ Y in C
+    g:Y ⟶ Z in C
+  Then
+    f;g:X ⟶ Z in C

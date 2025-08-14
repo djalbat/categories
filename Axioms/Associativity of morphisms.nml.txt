@@ -1,0 +1,18 @@
+Variable C:Category
+
+Variable X:Object
+Variable Y:Object
+Variable Z:Object
+Variable W:Object
+
+Variable f:Morphism
+Variable g:Morphism
+Variable h:Morphism
+
+Axiom [C, X, Y, Z, W, f, g, h] (CategoryAssociativityOfComposition)
+  Suppose 
+    f:X ⟶ Y in C
+    g:Y ⟶ Z in C
+    h:Z ⟶ W in C
+  Then
+    (f;g);h = f;(g;h) = f;g;h
