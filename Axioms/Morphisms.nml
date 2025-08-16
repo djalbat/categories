@@ -5,6 +5,24 @@ Variable f:Morphism
 Variable X:Object
 Variable Y:Object
 
+Axiom (CategoryDomainInroduction)
+  Suppose
+    f:X ⟶ Y in C
+  Then
+    X is an object of C
+
+Axiom (CategoryCodomainInroduction)
+  Suppose
+    f:X ⟶ Y in C
+  Then
+    Y is an object of C
+
+Axiom (CategoryMorphismPropertyInroduction)
+  Suppose
+    f:X ⟶ Y in C
+  Then
+    f is a morphism of C
+
 Axiom (CategoryShorthandMorphismInroduction)
   Suppose
     f:X ⟶ Y in C
@@ -13,9 +31,9 @@ Axiom (CategoryShorthandMorphismInroduction)
 
 Axiom (CategoryShorthandMorphismElimination)
   Suppose
+    f is a morphism of C
     X is an object of C
     Y is an object of C
-    f is a morphism of C
     f:X ⟶ Y
   Then
     f:X ⟶ Y in C
