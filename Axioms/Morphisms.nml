@@ -22,18 +22,3 @@ Axiom (CategoryMorphismPropertyInroduction)
     f:X ⟶ Y in C
   Then
     f is a morphism of C
-
-Axiom (CategoryShorthandMorphismInroduction)
-  Suppose
-    f:X ⟶ Y in C
-  Then
-    f:X ⟶ Y
-
-Axiom (CategoryShorthandMorphismElimination)
-  Suppose
-    f is a morphism of C
-    X is an object of C
-    Y is an object of C
-    f:X ⟶ Y
-  Then
-    f:X ⟶ Y in C
