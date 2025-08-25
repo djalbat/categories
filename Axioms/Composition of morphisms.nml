@@ -7,7 +7,7 @@ Variable Z:Object
 Variable f:Morphism
 Variable g:Morphism
 
-Axiom [C, X, Y, Z, f, g] (CategoryComposition)
+Axiom [C] (CategoryCompositionOfMorphisms)
   Suppose
     f:X ⟶ Y in C
     g:Y ⟶ Z in C

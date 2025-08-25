@@ -9,7 +9,7 @@ Variable Y:Object
 Variable Z:Object
 Variable W:Object
 
-Axiom [C, X, Y, Z, W, f, g, h] (CategoryAssociativity)
+Axiom [C] (CategoryCompositionIsAssociative)
   Suppose 
     f:X ⟶ Y in C
     g:Y ⟶ Z in C

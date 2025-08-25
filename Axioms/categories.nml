@@ -1,18 +1,9 @@
 Variable C:Category provisionally
 
-Variable f:Morphism
-Variable g:Morphism
-Variable h:Morphism
-
-Variable X:Object
-Variable Y:Object
-Variable Z:Object
-Variable W:Object
-
 Axiom (Categories)
   Suppose
-    [C, X] satisfies CategoryIdentityMorphisms
-    [C, X, Y, Z, f, g] satisfies CategoryComposition
-    [C, X, Y, Z, W, f, g, h] satisfies CategoryAssociativity
+    [C] satisfies CategoryCompositionOfMorphisms
+    [C] satisfies CategoryCompositionIsAssociative
+    [C] satisfies CategoryIdentityMorphisms
   Then
     C:Category
