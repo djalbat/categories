@@ -12,10 +12,14 @@ Axiom [C] (CategoryIdentityMorphisms)
   Suppose
     X is an object of C
   Then
-    id_X:X ⟶ X in C
+    id_X is an identity morphism of X
 
 Axiom (CategoryrIdentityMorhpismCanonicalForm)
-  id_X is an identity morphism of X
+  Suppose
+    C:Category
+    X is an object of C
+  Then
+    id_X is an identity morphism of X
 
 Axiom [C, Y, g] (CategoryLeftIdentityMorphisms)
   Suppose 
