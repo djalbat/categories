@@ -14,7 +14,7 @@ Axiom [C] (CategoryIdentityMorphisms)
   Then
     id_X is an identity morphism of X
 
-Axiom (CategoryrIdentityMorhpismCanonicalForm)
+Axiom (CategoryIdentityMorphismsProjection)
   Suppose
     C:Category
     X is an object of C
