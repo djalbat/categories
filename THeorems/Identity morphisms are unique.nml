@@ -23,9 +23,7 @@ Theorem (CategoryIdentityMorphismsAreUnique)
     g2:Y ⟶ Y in C ∧ [C, Y, g2] satisfies CategoryLeftIdentityMorphisms ∧ [C, Y, g2] satisfies CategoryRightIdentityMorphisms by BiconditionalImplicationLeftElimination
     [C, Y, g2] satisfies CategoryRightIdentityMorphisms by DoubleConjunctionRightElimination
     g2:Y ⟶ Y in C by DoubleConjunctionLeftElimination
-    g2:Y ⟶ Y in C
     g1;g2 = g2 because [C, Y, g1] satisfies CategoryLeftIdentityMorphisms
-    g1:Y ⟶ Y in C
     g1 = g1;g2 because [C, Y, g2] satisfies CategoryRightIdentityMorphisms
   Therefore
     g1 = g2
