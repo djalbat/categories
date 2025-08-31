@@ -1,0 +1,21 @@
+Metavariable P:Statement
+Metavariable Q:Statement
+Metavariable R:Statement
+
+Rule (DoubleConjunctionLeftElimination)
+  Premise
+    P ∧ Q  ∧ R
+  Conclusion
+    P
+
+Rule (DoubleConjunctionMiddleElimination)
+  Premise
+    P ∧ Q  ∧ R
+  Conclusion
+    Q
+
+Rule (DoubleConjunctionRightElimination)
+  Premise
+    P ∧ Q  ∧ R
+  Conclusion
+    R

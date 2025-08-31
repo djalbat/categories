@@ -12,11 +12,17 @@ Axiom [C] (CategoryIdentityMorphisms)
   Suppose
     X is an object of C
   Then
-    id_X is an identity morphism of X
+    id_X: X ⟶ X in C
 
-Axiom (CategoryIdentityMorphismsProjection)
+Axiom (CategoryProjectedIdentityMorphisms)
   Suppose
     C:Category
+    X is an object of C
+  Then
+    id_X: X ⟶ X in C
+
+Axiom (CategoryIdentityMorphismCanonicalForm)
+  Suppose
     X is an object of C
   Then
     id_X is an identity morphism of X

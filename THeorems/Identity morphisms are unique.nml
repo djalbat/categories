@@ -1,0 +1,31 @@
+Variable C:Category provisionally
+
+Variable g1:Morphism
+Variable g2:Morphism
+
+Variable Y:Object
+
+Theorem (CategoryIdentityMorphismsAreUnique)
+  Suppose
+    Y is an object of C
+    g1 is an identity morphism of Y
+    g2 is an identity morphism of Y
+  Then
+    g1 = g2
+  Proof
+    g1 is an identity morphism of Y iff (g1:Y ⟶ Y in C ∧ [C, Y, g1] satisfies CategoryLeftIdentityMorphisms ∧ [C, Y, g1] satisfies CategoryRightIdentityMorphisms) by CategoryIdentityMorphism
+    g1 is an identity morphism of Y
+    g1:Y ⟶ Y in C ∧ [C, Y, g1] satisfies CategoryLeftIdentityMorphisms ∧ [C, Y, g1] satisfies CategoryRightIdentityMorphisms by BiconditionalImplicationLeftElimination
+    [C, Y, g1] satisfies CategoryLeftIdentityMorphisms by DoubleConjunctionMiddleElimination
+    g1:Y ⟶ Y in C by DoubleConjunctionLeftElimination
+    g2 is an identity morphism of Y iff (g2:Y ⟶ Y in C ∧ [C, Y, g2] satisfies CategoryLeftIdentityMorphisms ∧ [C, Y, g2] satisfies CategoryRightIdentityMorphisms) by CategoryIdentityMorphism
+    g2 is an identity morphism of Y
+    g2:Y ⟶ Y in C ∧ [C, Y, g2] satisfies CategoryLeftIdentityMorphisms ∧ [C, Y, g2] satisfies CategoryRightIdentityMorphisms by BiconditionalImplicationLeftElimination
+    [C, Y, g2] satisfies CategoryRightIdentityMorphisms by DoubleConjunctionRightElimination
+    g2:Y ⟶ Y in C by DoubleConjunctionLeftElimination
+    g2:Y ⟶ Y in C
+    g1;g2 = g2 because [C, Y, g1] satisfies CategoryLeftIdentityMorphisms
+    g1:Y ⟶ Y in C
+    g1 = g1;g2 because [C, Y, g2] satisfies CategoryRightIdentityMorphisms
+  Therefore
+    g1 = g2
