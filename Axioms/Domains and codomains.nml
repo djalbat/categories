@@ -1,16 +1,16 @@
-Variable A:Object
-Variable B:Object
+Variable 𝑋:𝖮𝖻𝗃𝖾𝖼𝗍
+Variable 𝑌:𝖮𝖻𝗃𝖾𝖼𝗍
 
-Variable f:Morphism
+Variable f:𝖬𝗈𝗋𝗉𝗁𝗂𝗌𝗆
 
 Axiom (DomainAlternativeForm)
   Suppose 
-    f: A ⟶ B
+    f: 𝑋 ⟶ 𝑌
   Then
-    domain(f) = A
+    𝘥𝘰𝘮𝘢𝘪𝘯(f) = 𝑋
 
 Axiom (CodomainAlternativeForm)
   Suppose 
-    f: A ⟶ B
+    f: 𝑋 ⟶ 𝑌
   Then
-    codomain(f) = B
+    𝘤𝘰𝘥𝘰𝘮𝘢𝘪𝘯(f) = 𝑌

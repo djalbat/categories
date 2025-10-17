@@ -1,12 +1,12 @@
-Type Morphism
+Type 𝖬𝗈𝗋𝗉𝗁𝗂𝗌𝗆
 
 Type
-  Object
+  𝖮𝖻𝗃𝖾𝖼𝗍
   Property
-    identity morphism:Morphism
+    identity morphism:𝖬𝗈𝗋𝗉𝗁𝗂𝗌𝗆
 
 Provisional Type 
-  Category
+  𝖢𝖺𝗍𝖾𝗀𝗈𝗋𝗒
   Properties
-    object:Object
-    morphism:Morphism
+    object:𝖮𝖻𝗃𝖾𝖼𝗍
+    morphism:𝖬𝗈𝗋𝗉𝗁𝗂𝗌𝗆

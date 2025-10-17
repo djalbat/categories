@@ -1,39 +1,39 @@
-Variable C:Category provisionally
+Variable 𝒞:𝖢𝖺𝗍𝖾𝗀𝗈𝗋𝗒 provisionally
 
-Variable f:Morphism
+Variable f:𝖬𝗈𝗋𝗉𝗁𝗂𝗌𝗆
 
-Variable X:Object
-Variable Y:Object
+Variable 𝑋:𝖮𝖻𝗃𝖾𝖼𝗍
+Variable 𝑌:𝖮𝖻𝗃𝖾𝖼𝗍
 
 Axiom (CategoryDomainInroduction)
   Suppose
-    f:X ⟶ Y in C
+    f:𝑋 ⟶ 𝑌 in 𝒞
   Then
-    X is an object of C
+    𝑋 is an object of 𝒞
 
 Axiom (CategoryCodomainInroduction)
   Suppose
-    f:X ⟶ Y in C
+    f:𝑋 ⟶ 𝑌 in 𝒞
   Then
-    Y is an object of C
+    𝑌 is an object of 𝒞
 
 Axiom (CategoryMorphismPropertyInroduction)
   Suppose
-    f:X ⟶ Y in C
+    f:𝑋 ⟶ 𝑌 in 𝒞
   Then
-    f is a morphism of C
+    f is a morphism of 𝒞
 
 Axiom (CategoryShorthandMorphismInroduction)
   Suppose
-    f:X ⟶ Y in C
+    f:𝑋 ⟶ 𝑌 in 𝒞
   Then
-    f:X ⟶ Y
+    f:𝑋 ⟶ 𝑌
 
 Axiom (CategoryShorthandMorphismElimination)
   Suppose
-    f is a morphism of C
-    X is an object of C
-    Y is an object of C
-    f:X ⟶ Y
+    f is a morphism of 𝒞
+    𝑋 is an object of 𝒞
+    𝑌 is an object of 𝒞
+    f:𝑋 ⟶ 𝑌
   Then
-    f:X ⟶ Y in C
+    f:𝑋 ⟶ 𝑌 in 𝒞

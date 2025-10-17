@@ -1,29 +1,29 @@
-Variable C:Category provisionally
+Variable 𝒞:𝖢𝖺𝗍𝖾𝗀𝗈𝗋𝗒 provisionally
 
-Variable g1:Morphism
-Variable g2:Morphism
+Variable g1:𝖬𝗈𝗋𝗉𝗁𝗂𝗌𝗆
+Variable g2:𝖬𝗈𝗋𝗉𝗁𝗂𝗌𝗆
 
-Variable Y:Object
+Variable 𝑌:𝖮𝖻𝗃𝖾𝖼𝗍
 
 Theorem (CategoryIdentityMorphismsAreUnique)
   Suppose
-    Y is an object of C
-    g1 is an identity morphism of Y
-    g2 is an identity morphism of Y
+    𝑌 is an object of 𝒞
+    g1 is an identity morphism of 𝑌
+    g2 is an identity morphism of 𝑌
   Then
     g1 = g2
   Proof
-    g1 is an identity morphism of Y iff (g1:Y ⟶ Y in C ∧ [C, Y, g1] satisfies CategoryLeftIdentityMorphisms ∧ [C, Y, g1] satisfies CategoryRightIdentityMorphisms) by CategoryIdentityMorphism
-    g1 is an identity morphism of Y
-    g1:Y ⟶ Y in C ∧ [C, Y, g1] satisfies CategoryLeftIdentityMorphisms ∧ [C, Y, g1] satisfies CategoryRightIdentityMorphisms by BiconditionalImplicationLeftElimination
-    [C, Y, g1] satisfies CategoryLeftIdentityMorphisms by DoubleConjunctionMiddleElimination
-    g1:Y ⟶ Y in C by DoubleConjunctionLeftElimination
-    g2 is an identity morphism of Y iff (g2:Y ⟶ Y in C ∧ [C, Y, g2] satisfies CategoryLeftIdentityMorphisms ∧ [C, Y, g2] satisfies CategoryRightIdentityMorphisms) by CategoryIdentityMorphism
-    g2 is an identity morphism of Y
-    g2:Y ⟶ Y in C ∧ [C, Y, g2] satisfies CategoryLeftIdentityMorphisms ∧ [C, Y, g2] satisfies CategoryRightIdentityMorphisms by BiconditionalImplicationLeftElimination
-    [C, Y, g2] satisfies CategoryRightIdentityMorphisms by DoubleConjunctionRightElimination
-    g2:Y ⟶ Y in C by DoubleConjunctionLeftElimination
-    g1;g2 = g2 because [C, Y, g1] satisfies CategoryLeftIdentityMorphisms
-    g1 = g1;g2 because [C, Y, g2] satisfies CategoryRightIdentityMorphisms
+    g1 is an identity morphism of 𝑌 𝘪𝘧𝘧 (g1:𝑌 ⟶ 𝑌 in 𝒞 ∧ [𝒞, 𝑌, g1] satisfies CategoryLeftIdentityMorphisms ∧ [𝒞, 𝑌, g1] satisfies CategoryRightIdentityMorphisms) by CategoryIdentityMorphism
+    g1 is an identity morphism of 𝑌
+    g1:𝑌 ⟶ 𝑌 in 𝒞 ∧ [𝒞, 𝑌, g1] satisfies CategoryLeftIdentityMorphisms ∧ [𝒞, 𝑌, g1] satisfies CategoryRightIdentityMorphisms by BiconditionalImplicationLeftElimination
+    [𝒞, 𝑌, g1] satisfies CategoryLeftIdentityMorphisms by DoubleConjunctionMiddleElimination
+    g1:𝑌 ⟶ 𝑌 in 𝒞 by DoubleConjunctionLeftElimination
+    g2 is an identity morphism of 𝑌 𝘪𝘧𝘧 (g2:𝑌 ⟶ 𝑌 in 𝒞 ∧ [𝒞, 𝑌, g2] satisfies CategoryLeftIdentityMorphisms ∧ [𝒞, 𝑌, g2] satisfies CategoryRightIdentityMorphisms) by CategoryIdentityMorphism
+    g2 is an identity morphism of 𝑌
+    g2:𝑌 ⟶ 𝑌 in 𝒞 ∧ [𝒞, 𝑌, g2] satisfies CategoryLeftIdentityMorphisms ∧ [𝒞, 𝑌, g2] satisfies CategoryRightIdentityMorphisms by BiconditionalImplicationLeftElimination
+    [𝒞, 𝑌, g2] satisfies CategoryRightIdentityMorphisms by DoubleConjunctionRightElimination
+    g2:𝑌 ⟶ 𝑌 in 𝒞 by DoubleConjunctionLeftElimination
+    g1;g2 = g2 because [𝒞, 𝑌, g1] satisfies CategoryLeftIdentityMorphisms
+    g1 = g1;g2 because [𝒞, 𝑌, g2] satisfies CategoryRightIdentityMorphisms
   Therefore
     g1 = g2

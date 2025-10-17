@@ -1,46 +1,46 @@
-Variable C:Category provisionally
+Variable 𝒞:𝖢𝖺𝗍𝖾𝗀𝗈𝗋𝗒 provisionally
 
-Variable f:Morphism
-Variable g:Morphism
-Variable h:Morphism
+Variable f:𝖬𝗈𝗋𝗉𝗁𝗂𝗌𝗆
+Variable g:𝖬𝗈𝗋𝗉𝗁𝗂𝗌𝗆
+Variable h:𝖬𝗈𝗋𝗉𝗁𝗂𝗌𝗆
 
-Variable X:Object
-Variable Y:Object
-Variable Z:Object
+Variable 𝑋:𝖮𝖻𝗃𝖾𝖼𝗍
+Variable 𝑌:𝖮𝖻𝗃𝖾𝖼𝗍
+Variable 𝑍:𝖮𝖻𝗃𝖾𝖼𝗍
 
-Axiom [C] (CategoryIdentityMorphisms)
+Axiom [𝒞] (CategoryIdentityMorphisms)
   Suppose
-    X is an object of C
+    𝑋 is an object of 𝒞
   Then
-    id_X: X ⟶ X in C
+    𝘪𝘥_𝑋: 𝑋 ⟶ 𝑋 in 𝒞
 
 Axiom (CategoryProjectedIdentityMorphisms)
   Suppose
-    C:Category
-    X is an object of C
+    𝒞:𝖢𝖺𝗍𝖾𝗀𝗈𝗋𝗒
+    𝑋 is an object of 𝒞
   Then
-    id_X: X ⟶ X in C
+    𝘪𝘥_𝑋: 𝑋 ⟶ 𝑋 in 𝒞
 
 Axiom (CategoryIdentityMorphismCanonicalForm)
   Suppose
-    X is an object of C
+    𝑋 is an object of 𝒞
   Then
-    id_X is an identity morphism of X
+    𝘪𝘥_𝑋 is an identity morphism of 𝑋
 
-Axiom [C, Y, g] (CategoryLeftIdentityMorphisms)
+Axiom [𝒞, 𝑌, g] (CategoryLeftIdentityMorphisms)
   Suppose 
-    h:Y ⟶ Z in C
+    h:𝑌 ⟶ 𝑍 in 𝒞
   Then 
     g;h = h
 
-Axiom [C, Y, g] (CategoryRightIdentityMorphisms)
+Axiom [𝒞, 𝑌, g] (CategoryRightIdentityMorphisms)
   Suppose 
-    f:X ⟶ Y in C
+    f:𝑋 ⟶ 𝑌 in 𝒞
   Then 
     f = f;g
 
 Axiom (CategoryIdentityMorphism)
   Suppose
-    Y is an object of C
+    𝑌 is an object of 𝒞
   Then
-    g is an identity morphism of Y iff (g:Y ⟶ Y in C ∧ [C, Y, g] satisfies CategoryLeftIdentityMorphisms ∧ [C, Y, g] satisfies CategoryRightIdentityMorphisms)
+    g is an identity morphism of 𝑌 𝘪𝘧𝘧 (g:𝑌 ⟶ 𝑌 in 𝒞 ∧ [𝒞, 𝑌, g] satisfies CategoryLeftIdentityMorphisms ∧ [𝒞, 𝑌, g] satisfies CategoryRightIdentityMorphisms)

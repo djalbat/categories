@@ -1,9 +1,9 @@
-Variable C:Category provisionally
+Variable 𝒞:𝖢𝖺𝗍𝖾𝗀𝗈𝗋𝗒 provisionally
 
 Axiom (Categories)
   Suppose
-    [C] satisfies CategoryCompositionOfMorphisms
-    [C] satisfies CategoryCompositionIsAssociative
-    [C] satisfies CategoryIdentityMorphisms
+    [𝒞] satisfies CategoryCompositionOfMorphisms
+    [𝒞] satisfies CategoryCompositionIsAssociative
+    [𝒞] satisfies CategoryIdentityMorphisms
   Then
-    C:Category
+    𝒞:𝖢𝖺𝗍𝖾𝗀𝗈𝗋𝗒

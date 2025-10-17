@@ -1,8 +1,8 @@
 
 
-                term  ::=  "id_"<NO_WHITESPACE>argument
+                term  ::=  "𝘪𝘥_"<NO_WHITESPACE>argument
 
-                        |  ( "domain" | "codomain" )<NO_WHITESPACE>"(" argument ")"
+                        |  ( "𝘥𝘰𝘮𝘢𝘪𝘯" | "𝘤𝘰𝘥𝘰𝘮𝘢𝘪𝘯" )<NO_WHITESPACE>"(" argument ")"
 
                         |  argument ( ( ";" argument )                  (1)
 

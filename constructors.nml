@@ -1,8 +1,8 @@
-Constructor Morphism;Morphism:Morphism
+Constructor 𝖬𝗈𝗋𝗉𝗁𝗂𝗌𝗆;𝖬𝗈𝗋𝗉𝗁𝗂𝗌𝗆:𝖬𝗈𝗋𝗉𝗁𝗂𝗌𝗆
 
-Constructor Morphism⁻¹:Morphism
+Constructor 𝖬𝗈𝗋𝗉𝗁𝗂𝗌𝗆⁻¹:𝖬𝗈𝗋𝗉𝗁𝗂𝗌𝗆
 
-Constructor id_Object:Morphism
+Constructor 𝘪𝘥_𝖮𝖻𝗃𝖾𝖼𝗍:𝖬𝗈𝗋𝗉𝗁𝗂𝗌𝗆
 
-Constructor domain(Morphism):Object
-Constructor codomain(Morphism):Object
+Constructor 𝘥𝘰𝘮𝘢𝘪𝘯(𝖬𝗈𝗋𝗉𝗁𝗂𝗌𝗆):𝖮𝖻𝗃𝖾𝖼𝗍
+Constructor 𝘤𝘰𝘥𝘰𝘮𝘢𝘪𝘯(𝖬𝗈𝗋𝗉𝗁𝗂𝗌𝗆):𝖮𝖻𝗃𝖾𝖼𝗍
