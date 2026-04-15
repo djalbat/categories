@@ -43,4 +43,4 @@ Axiom (CategoryIdentityMorphism)
   Suppose
     𝑌 is an object of 𝒞
   Then
-    g is an identity morphism of 𝑌 𝘪𝘧𝘧 (g:𝑌 ⟶ 𝑌 in 𝒞 ∧ [𝒞, 𝑌, g] satisfies CategoryLeftIdentityMorphisms ∧ [𝒞, 𝑌, g] satisfies CategoryRightIdentityMorphisms)
+    g is an identity morphism of 𝑌 𝗂𝖿𝖿 (g:𝑌 ⟶ 𝑌 in 𝒞 ∧ [𝒞, 𝑌, g] satisfies CategoryLeftIdentityMorphisms ∧ [𝒞, 𝑌, g] satisfies CategoryRightIdentityMorphisms)

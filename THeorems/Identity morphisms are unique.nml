@@ -13,12 +13,12 @@ Theorem (CategoryIdentityMorphismsAreUnique)
   Then
     g1 = g2
   Proof
-    g1 is an identity morphism of 𝑌 𝘪𝘧𝘧 (g1:𝑌 ⟶ 𝑌 in 𝒞 ∧ [𝒞, 𝑌, g1] satisfies CategoryLeftIdentityMorphisms ∧ [𝒞, 𝑌, g1] satisfies CategoryRightIdentityMorphisms) by CategoryIdentityMorphism
+    g1 is an identity morphism of 𝑌 𝗂𝖿𝖿 (g1:𝑌 ⟶ 𝑌 in 𝒞 ∧ [𝒞, 𝑌, g1] satisfies CategoryLeftIdentityMorphisms ∧ [𝒞, 𝑌, g1] satisfies CategoryRightIdentityMorphisms) by CategoryIdentityMorphism
     g1 is an identity morphism of 𝑌
     g1:𝑌 ⟶ 𝑌 in 𝒞 ∧ [𝒞, 𝑌, g1] satisfies CategoryLeftIdentityMorphisms ∧ [𝒞, 𝑌, g1] satisfies CategoryRightIdentityMorphisms by BiconditionalImplicationLeftElimination
     [𝒞, 𝑌, g1] satisfies CategoryLeftIdentityMorphisms by DoubleConjunctionMiddleElimination
     g1:𝑌 ⟶ 𝑌 in 𝒞 by DoubleConjunctionLeftElimination
-    g2 is an identity morphism of 𝑌 𝘪𝘧𝘧 (g2:𝑌 ⟶ 𝑌 in 𝒞 ∧ [𝒞, 𝑌, g2] satisfies CategoryLeftIdentityMorphisms ∧ [𝒞, 𝑌, g2] satisfies CategoryRightIdentityMorphisms) by CategoryIdentityMorphism
+    g2 is an identity morphism of 𝑌 𝗂𝖿𝖿 (g2:𝑌 ⟶ 𝑌 in 𝒞 ∧ [𝒞, 𝑌, g2] satisfies CategoryLeftIdentityMorphisms ∧ [𝒞, 𝑌, g2] satisfies CategoryRightIdentityMorphisms) by CategoryIdentityMorphism
     g2 is an identity morphism of 𝑌
     g2:𝑌 ⟶ 𝑌 in 𝒞 ∧ [𝒞, 𝑌, g2] satisfies CategoryLeftIdentityMorphisms ∧ [𝒞, 𝑌, g2] satisfies CategoryRightIdentityMorphisms by BiconditionalImplicationLeftElimination
     [𝒞, 𝑌, g2] satisfies CategoryRightIdentityMorphisms by DoubleConjunctionRightElimination
