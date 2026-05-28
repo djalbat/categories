@@ -8,24 +8,24 @@ Variable 𝑋:𝖮𝖻𝗃𝖾𝖼𝗍
 Variable 𝑌:𝖮𝖻𝗃𝖾𝖼𝗍
 Variable 𝑍:𝖮𝖻𝗃𝖾𝖼𝗍
 
-Axiom [𝒞] (CategoryIdentityMorphisms)
-  Suppose
-    𝑋 is an object of 𝒞
-  Then
-    𝘪𝘥_𝑋: 𝑋 ⟶ 𝑋 in 𝒞
-
 Axiom (CategoryProjectedIdentityMorphisms)
   Suppose
     𝒞:𝖢𝖺𝗍𝖾𝗀𝗈𝗋𝗒
-    𝑋 is an object of 𝒞
+    𝑋 is an 𝘰𝘣𝘫𝘦𝘤𝘵 of 𝒞
+  Then
+    𝘪𝘥_𝑋: 𝑋 ⟶ 𝑋 in 𝒞
+
+Axiom [𝒞] (CategoryIdentityMorphisms)
+  Suppose
+    𝑋 is an 𝘰𝘣𝘫𝘦𝘤𝘵 of 𝒞
   Then
     𝘪𝘥_𝑋: 𝑋 ⟶ 𝑋 in 𝒞
 
 Axiom (CategoryIdentityMorphismCanonicalForm)
   Suppose
-    𝑋 is an object of 𝒞
+    𝑋 is an 𝘰𝘣𝘫𝘦𝘤𝘵 of 𝒞
   Then
-    𝘪𝘥_𝑋 is an identity morphism of 𝑋
+    𝘪𝘥_𝑋 is an 𝘪𝘥𝘦𝘯𝘵𝘪𝘵𝘺 𝘮𝘰𝘳𝘱𝘩𝘪𝘴𝘮 of 𝑋
 
 Axiom [𝒞, 𝑌, g] (CategoryLeftIdentityMorphisms)
   Suppose 
@@ -41,6 +41,6 @@ Axiom [𝒞, 𝑌, g] (CategoryRightIdentityMorphisms)
 
 Axiom (CategoryIdentityMorphism)
   Suppose
-    𝑌 is an object of 𝒞
+    𝑌 is an 𝘰𝘣𝘫𝘦𝘤𝘵 of 𝒞
   Then
-    g is an identity morphism of 𝑌 𝗂𝖿𝖿 (g:𝑌 ⟶ 𝑌 in 𝒞 ∧ [𝒞, 𝑌, g] satisfies CategoryLeftIdentityMorphisms ∧ [𝒞, 𝑌, g] satisfies CategoryRightIdentityMorphisms)
+    g is an 𝘪𝘥𝘦𝘯𝘵𝘪𝘵𝘺 𝘮𝘰𝘳𝘱𝘩𝘪𝘴𝘮 of 𝑌 𝗂𝖿𝖿 (g:𝑌 ⟶ 𝑌 in 𝒞 ∧ [𝒞, 𝑌, g] satisfies CategoryLeftIdentityMorphisms ∧ [𝒞, 𝑌, g] satisfies CategoryRightIdentityMorphisms)
