@@ -1,10 +1,10 @@
 
 
-                term  ::=  "𝘪𝘥_"<NO_WHITESPACE>argument
-
-                        |  ( ( "𝘪𝘥𝘦𝘯𝘵𝘪𝘵𝘺"? "𝘮𝘰𝘳𝘱𝘩𝘪𝘴𝘮" ) | "𝘰𝘣𝘫𝘦𝘤𝘵" ) "of" argument
+                term  ::=  ( ( "𝘪𝘥𝘦𝘯𝘵𝘪𝘵𝘺"? "𝘮𝘰𝘳𝘱𝘩𝘪𝘴𝘮" ) | "𝘰𝘣𝘫𝘦𝘤𝘵" ) "of" argument
 
                         |  ( "𝘥𝘰𝘮𝘢𝘪𝘯" | "𝘤𝘰𝘥𝘰𝘮𝘢𝘪𝘯" )<NO_WHITESPACE>"(" argument ")"
+
+                        |  "𝘪𝘥_"<NO_WHITESPACE>argument
 
                         |  argument ( ( ";" argument )                  (1)
 

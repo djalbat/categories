@@ -16,3 +16,4 @@ Axiom [𝒞] (CategoryCompositionIsAssociative)
     h:𝑍 ⟶ 𝑊 in 𝒞
   Then
     (f;g);h = f;(g;h) = f;g;h
+
