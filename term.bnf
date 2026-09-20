@@ -6,9 +6,7 @@
 
                         |  "𝘪𝘥_"<NO_WHITESPACE>argument
 
-                        |  argument ( ( ";" argument )                  (1)
-
-                                    | ( <NO_WHITESPACE>"⁻¹" )           (2) ) 
+                        |  argument  ";" argument (2)
 
                         ;
 
